@@ -21,8 +21,7 @@ on:
     inputs: {}
   push:
     branches:
-      - master
-      - android-workflows
+      - eon-tv
     tags:
       - '*'
   pull_request: {2485}
